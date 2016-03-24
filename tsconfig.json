@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "charset": "utf-8",
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "newLine": "LF",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist/",
+    "pretty": true,
+    "target": "es2015"
+  },
+  // Until https://github.com/Microsoft/TypeScript/pull/5980 lands, this must be
+  // filled in manually.
+  "files": [
+    "src/index.ts",
+    "typings/main.d.ts"
+  ]
+}

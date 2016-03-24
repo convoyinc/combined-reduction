@@ -1,0 +1,34 @@
+{
+  "name": "combined-reduction",
+  "version": "1.0.0",
+  "description": "Like Redux's combineReducers, but more better!",
+  "homepage": "https://github.com/convoyinc/combined-reduction",
+  "bugs": "https://github.com/convoyinc/combined-reduction/issues",
+  "license": "Apache-2.0",
+  "repository": "convoyinc/combined-reduction",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "*.md"
+  ],
+  "scripts": {
+    "clean": "./scripts/clean",
+    "compile": "./scripts/compile",
+    "prepublish": "./scripts/prepublish",
+    "test:style": "./scripts/test:style",
+    "test": "./scripts/test"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "deep-update": "^1.0.4",
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "tslint": "3.6.0",
+    "typescript": "1.8.9",
+    "typings": "0.7.9"
+  }
+}

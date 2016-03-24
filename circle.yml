@@ -1,0 +1,6 @@
+test:
+  override:
+    - npm run test:style:
+        parallel: true
+        files:
+          - src/**/*.ts

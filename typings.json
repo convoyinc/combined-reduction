@@ -1,0 +1,9 @@
+{
+  "name": "combined-reduction",
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160305082308",
+    "react-addons-update": "github:convoyinc/typed-react-addons-update#7965758e062e1e6014a5ee70ce316df2a0723740"
+  },
+  "devDependencies": {},
+  "ambientDependencies": {}
+}

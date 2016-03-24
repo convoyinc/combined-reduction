@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+./scripts/clean
+./node_modules/.bin/typings install
+./scripts/compile
