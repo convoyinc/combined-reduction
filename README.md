@@ -7,7 +7,7 @@ Like Redux's [`combineReducers`](http://redux.js.org/docs/api/combineReducers.ht
 
 Everyone loves a little hierarchy!  Place your reducers at any depth in the store:
 
-```
+```js
 const reducer = combinedReduction({
   session: session.reducer,
   entities: {
@@ -23,7 +23,7 @@ Now, you _could_ use [`compose`](http://redux.js.org/docs/api/compose.html) to c
 
 How about declaring all your reducers in one handy place:
 
-```
+```js
 const reducer = combinedReduction(
   migrations.reducer,
   {
