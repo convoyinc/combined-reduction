@@ -19,9 +19,6 @@
     "test:style": "./scripts/test:style",
     "test": "./scripts/test"
   },
-  "engines": {
-    "node": ">= 4.0.0"
-  },
   "dependencies": {
     "deep-update": "^1.0.4",
     "lodash": "^4.0.0"
