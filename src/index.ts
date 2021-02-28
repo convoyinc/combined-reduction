@@ -21,7 +21,7 @@ type _DispatchPair = [string[], combinedReduction.Reducer];
 function combinedReduction(...reducers:(combinedReduction.ReducerOrMap)[]):combinedReduction.Reducer {
   const dispatchPairs:_DispatchPair[] = _.reduce(reducers, (m, r) => m.concat(_findReducers(r)), []);
 
-  return (state:{} = {}, action:combinedReduction.Action) => {
+  return (state:{}, action:combinedReduction.Action) => {
     for (let [path, reducer] of dispatchPairs) {
       let currentState = path.length === 0 ? state : _.get(state, path);
       let newState:{};
