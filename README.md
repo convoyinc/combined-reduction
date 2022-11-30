@@ -1,6 +1,6 @@
 # combined-reduction
 
-Like Redux's [`combineReducers`](http://redux.js.org/docs/api/combineReducers.html), but more better!
+Like Redux's [`combineReducers`](http://redux.js.org/docs/api/combineReducers.html), but better!
 
 
 ## Nested Reducers
